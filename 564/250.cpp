@@ -68,6 +68,8 @@ class FauxPalindromes
                     return "NOT EVEN FAUX";
                 }
             }
+                    
+            return "NOT EVEN FAUX";
         }
 };
 
