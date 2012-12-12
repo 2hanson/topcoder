@@ -75,6 +75,7 @@ class FauxPalindromes
 
 int main()
 {
+    cout<<1<<endl;
     string str;
     FauxPalindromes s;
     while (cin>>str)

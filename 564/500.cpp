@@ -33,12 +33,10 @@ class AlternateColors
         }
         else
         {
-            cout<<"two"<<endl;
             long long sV2 = -1;
             long long aN = 0;
             colors.clear();
             r -= sV;
-            cout<<r<<endl;
             if (r != 0)
             {
                 ++aN;
@@ -46,7 +44,6 @@ class AlternateColors
                 colors.push_back("RED");
             }
             g -= sV;
-            cout<<g<<endl;
             if (g != 0)
             {
                 ++aN;
@@ -61,7 +58,6 @@ class AlternateColors
                 colors.push_back("GREEN");
             }
             b -= sV;
-            cout<<b<<endl;
             
             if (b != 0)
             {
@@ -76,7 +72,7 @@ class AlternateColors
                 }
                 colors.push_back("BLUE");
             }
-            k -= sV;
+            k -= 3*sV;
             if (aN == 1)
             {
                 return colors[0];
